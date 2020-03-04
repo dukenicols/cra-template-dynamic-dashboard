@@ -1,0 +1,18 @@
+.card-header {
+  cursor: pointer;
+  line-height: 30px;
+  button {
+    float: right;
+    line-height: 40px;
+  }
+  .title-container {
+    width: 75%;
+    display: inline-block;
+    .card-title {
+      margin: 0;
+    }
+    p {
+      line-height: 30px;
+    }
+  }
+}

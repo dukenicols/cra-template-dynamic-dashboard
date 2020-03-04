@@ -1,0 +1,12 @@
+.sidebar-menu {
+    background-color: #4f79a1;
+    height: calc(100vh - 56px);
+    a {
+        color: #ffffff;
+    }
+    .nav-link {
+        &:hover {
+            color: #282c34;
+        }
+    }
+}

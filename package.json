@@ -1,0 +1,29 @@
+{
+  "name": "@dukenicols/cra-template-dynamic-dashboard",
+  "version": "0.0.1",
+  "description": "React Dynamic Dashboard template",
+  "main": "template.json",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukenicols/cra-template-dynamic-dashboard.git"
+  },
+  "keywords": [
+    "cra-template"
+  ],
+  "author": "Nicolas Duque <dukenicols@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukenicols/cra-template-dynamic-dashboard/issues"
+  },
+  "homepage": "https://github.com/dukenicols/cra-template-dynamic-dashboard#readme"
+}

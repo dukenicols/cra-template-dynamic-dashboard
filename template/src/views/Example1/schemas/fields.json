@@ -1,0 +1,26 @@
+{
+    "name": {
+        "label": "Name",
+        "prop": "name",
+        "required": true,
+        "type": "text"
+    },
+    "username": {
+        "label": "Username",
+        "prop": "username",
+        "required": true,
+        "type": "text"
+    },
+    "website": {
+        "label": "Website",
+        "prop": "website",
+        "required": false,
+        "type": "text"
+    },
+    "email": {
+        "label": "Email",
+        "prop": "email",
+        "required": true,
+        "type": "text"
+    }
+}

@@ -1,0 +1,158 @@
+@import url('https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css');
+
+.App {
+  background-color: #597575;
+  min-height: 100vh;
+  color: white;
+  padding: 100px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Copy-Button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#caption {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+hr {
+   display: block;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 1px;
+   border-color: black;
+}
+
+.red {
+  background: #a81111;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    background-color: #65abab;
+    border: 2px solid #477979;
+    font-weight: bold;
+    height: 26px;
+}
+
+.content {
+    color: black;
+}
+
+.labelName {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 3px;
+    margin-right:2px;
+}
+
+.ui.column.grid>[class*="four wide"].column, .ui.grid>.column.row>[class*="four wide"].column, .ui.grid>.row>[class*="four wide"].column, .ui.grid>[class*="four wide"].column {
+    max-width: 330px;
+}
+
+.ui.grid>.row>.stretched.column>*, .ui.grid>.stretched.column:not(.row)>*, .ui.grid>.stretched.row>.column>*, .ui.stretched.grid>.column>*, .ui.stretched.grid>.row>.column>* {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-width: max-content;
+}
+
+.ui.menu .item {
+    font-size: 15px;
+    background: #65abab;
+}
+
+.ui.vertical.tabular.menu {
+    background-color: transparent;
+    border-right-color: transparent;
+}
+
+.ui.vertical.tabular.menu .item {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    background: none #65abab;
+}
+
+.ui.vertical.tabular.menu .active.item {
+    background: none #608f8f;
+    color: rgba(0,0,0,.95);
+    border-color: black;
+    margin: 0 -1px 0 0;
+    border-radius: .28571429rem 0 0 .28571429rem!important;
+}
+
+.ui.vertical.pointing.menu .active.item:hover:after {
+    background-color: #608f8f;
+    border-color: black;
+}
+
+.ui.vertical.pointing.menu .active.item:after {
+    background-color: #608f8f;
+    border-color: black;
+}
+
+.ui.segment {
+    background-color: #608f8f;
+    border: 1px solid black;
+}
+
+.ui.segment[class*="bottom attached"] {
+    border: 1px solid black;
+}
+
+#componentsTable {
+  text-align: center;
+  color: black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid black;
+  width: 100%;
+  background-color: #349294;
+}
+
+#componentsTable td, #comparisonTable th {
+  border: 3px solid black;
+  padding: 8px;
+}
+
+#componentsTable tr:nth-child(even) {
+    background-color: #84b0d9;
+}
+
+#componentsTable tr:nth-child(odd) {
+    background-color: #4f79a1;
+}
+
+#componentsTable tr:hover {background-color: #ddd;}
+
+#componentsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1f4b91;
+  color: white;
+}
+
